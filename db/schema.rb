@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2019_11_18_215530) do
     t.integer "best_streak", default: 0
     t.integer "wins", default: 0
     t.integer "losses", default: 0
+    t.integer "win_percentage", default: 0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

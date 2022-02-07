@@ -7,6 +7,7 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.integer :best_streak, default: 0
       t.integer :wins, default: 0
       t.integer :losses, default: 0
+      t.integer :win_percentage, default: 0
 
       t.timestamps
     end
